@@ -1,0 +1,12 @@
+{
+  "id": "@luckbiao/dsh-markdown-highlighter",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "client": {
+    "main": "./lib/client.js",
+    "inject": []
+  },
+  "engines": {
+    "dsh": ">=0.1.2"
+  }
+}
