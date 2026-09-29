@@ -1,10 +1,13 @@
 {
-  "id": "@luckbiao/dsh-markdown-highlighter",
+  "id": "@my-plugins/dsh-markdown-highlighter",
   "version": "1.0.0",
   "main": "./lib/index.js",
   "client": {
     "main": "./lib/client.js",
-    "inject": []
+    "inject": [
+      "@deepseek-ai/dsh-client-locale",
+      "@deepseek-ai/dsh-client-runtime"
+    ]
   },
   "engines": {
     "dsh": ">=0.1.2"

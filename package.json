@@ -11,6 +11,10 @@
   },
   "dsh": {
     "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-runtime"
+      ],
       "platform": "web"
     }
   }
