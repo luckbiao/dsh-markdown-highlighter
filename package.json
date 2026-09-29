@@ -1,6 +1,6 @@
 {
   "name": "@my-plugins/dsh-markdown-highlighter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Rich syntax highlighting for DSH Markdown: activates builtin Shiki theme colors (Python, JS, HTML, etc.) and styles diff codeblocks with green/red backgrounds",
   "type": "module",
   "main": "lib/index.js",
